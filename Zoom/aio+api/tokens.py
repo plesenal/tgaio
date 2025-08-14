@@ -1,3 +1,8 @@
-plc = '6832627417:AAE-9VLTn5o-HGU4YFIGt1JG_P6mq9NNTPc'
-whet = '7401970632:AAFPtN3K39ifOX17kgHNP9MXNyAFO20GKWA'
-nfq = '6793492637:AAFKMtlih3UyRGfvLn2wYl3fk99vrqhjD1A'
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+plc = os.getenv("plc")
+whet = os.getenv("weth")
+nfq = os.getenv("nqf")
+

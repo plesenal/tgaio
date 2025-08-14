@@ -74,3 +74,4 @@ def info(message):
     elif message.text.lower()=='id':
         bot.reply_to(message=message,text=f"ID:{message.from_user.id}")
 bot.infinity_polling()
+#djsfjsifj
